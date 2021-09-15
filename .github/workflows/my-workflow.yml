@@ -1,13 +1,13 @@
-name: Docker Actions
+# name: Docker Actions
 
-on: [push]
+# on: [push]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
+#     steps:
+#       - uses: actions/checkout@v2
 
-      - name: hello-action
-        uses: ./.github/actions/hello-world
+#       - name: hello-action
+#         uses: ./.github/actions/hello-world
